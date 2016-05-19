@@ -1,0 +1,43 @@
+ShinyApp Application for Mtcars Plot
+========================================================
+author: Chhabi
+date: 5/19/2016
+
+Objectives
+========================================================
+
+- Creating plot of mtcars dataset
+- Creating plot of mpg field
+- changing the color from the ui input
+
+
+How to run
+========================================================
+
+- By default this does not show any plot
+- mtcars and color black is by default appears
+- Click button Show Plot
+- Change the color you desired, immediately the plot updates
+
+
+This shows the template of the plot that is used in application
+========================================================
+
+```{r}
+data("mtcars")
+plot(mtcars)
+```
+
+
+Resources
+========================================================
+
+Below are the resource link for the project and its code
+ShinyApps Application
+
+  https://chhabi.shinyapps.io/shinyMtcars/
+  
+Source Code in Github
+
+  https://github.com/cupreti/DataProducts
+
